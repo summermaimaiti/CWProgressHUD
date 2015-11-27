@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "CWProgressHUD.h"
 @interface ViewController ()
 
 @end
@@ -15,9 +15,22 @@
 @implementation ViewController
 
 - (void)viewDidLoad {
+    
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    self.view.backgroundColor = [UIColor grayColor];
 }
+- (IBAction)show:(id)sender {
+    
+    [[CWProgressHUD sharedHUD] show];
+
+}
+- (IBAction)hide:(id)sender {
+    
+    [[CWProgressHUD sharedHUD] hide];
+
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

@@ -15,6 +15,8 @@
 		BE43CCF91C05A3F2005F1737 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE43CCF71C05A3F2005F1737 /* LaunchScreen.storyboard */; };
 		BE43CD041C05A3F2005F1737 /* _60CustomDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE43CD031C05A3F2005F1737 /* _60CustomDemoTests.m */; };
 		BE43CD0F1C05A3F2005F1737 /* _60CustomDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE43CD0E1C05A3F2005F1737 /* _60CustomDemoUITests.m */; };
+		BED4DF9E1C08563C00355CE7 /* CWProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BED4DF9B1C08563C00355CE7 /* CWProgressHUD.bundle */; };
+		BED4DF9F1C08563C00355CE7 /* CWProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = BED4DF9D1C08563C00355CE7 /* CWProgressHUD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		BE43CD0A1C05A3F2005F1737 /* 360CustomDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 360CustomDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE43CD0E1C05A3F2005F1737 /* _60CustomDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _60CustomDemoUITests.m; sourceTree = "<group>"; };
 		BE43CD101C05A3F2005F1737 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BED4DF9B1C08563C00355CE7 /* CWProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CWProgressHUD.bundle; sourceTree = "<group>"; };
+		BED4DF9C1C08563C00355CE7 /* CWProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWProgressHUD.h; sourceTree = "<group>"; };
+		BED4DF9D1C08563C00355CE7 /* CWProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWProgressHUD.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +86,7 @@
 		BE43CCDD1C05A3F2005F1737 = {
 			isa = PBXGroup;
 			children = (
+				BED4DF9A1C08563C00355CE7 /* CWProgressHUD */,
 				BE43CCE81C05A3F2005F1737 /* 360CustomDemo */,
 				BE43CD021C05A3F2005F1737 /* 360CustomDemoTests */,
 				BE43CD0D1C05A3F2005F1737 /* 360CustomDemoUITests */,
@@ -138,6 +144,16 @@
 				BE43CD101C05A3F2005F1737 /* Info.plist */,
 			);
 			path = 360CustomDemoUITests;
+			sourceTree = "<group>";
+		};
+		BED4DF9A1C08563C00355CE7 /* CWProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				BED4DF9B1C08563C00355CE7 /* CWProgressHUD.bundle */,
+				BED4DF9C1C08563C00355CE7 /* CWProgressHUD.h */,
+				BED4DF9D1C08563C00355CE7 /* CWProgressHUD.m */,
+			);
+			path = CWProgressHUD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,6 +259,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BED4DF9E1C08563C00355CE7 /* CWProgressHUD.bundle in Resources */,
 				BE43CCF91C05A3F2005F1737 /* LaunchScreen.storyboard in Resources */,
 				BE43CCF61C05A3F2005F1737 /* Assets.xcassets in Resources */,
 				BE43CCF41C05A3F2005F1737 /* Main.storyboard in Resources */,
@@ -272,6 +289,7 @@
 			files = (
 				BE43CCF11C05A3F2005F1737 /* ViewController.m in Sources */,
 				BE43CCEE1C05A3F2005F1737 /* AppDelegate.m in Sources */,
+				BED4DF9F1C08563C00355CE7 /* CWProgressHUD.m in Sources */,
 				BE43CCEB1C05A3F2005F1737 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -498,6 +516,7 @@
 				BE43CD151C05A3F2005F1737 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BE43CD161C05A3F2005F1737 /* Build configuration list for PBXNativeTarget "360CustomDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +525,7 @@
 				BE43CD181C05A3F2005F1737 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BE43CD191C05A3F2005F1737 /* Build configuration list for PBXNativeTarget "360CustomDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +534,7 @@
 				BE43CD1B1C05A3F2005F1737 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
