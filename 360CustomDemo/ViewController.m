@@ -19,6 +19,8 @@
     [super viewDidLoad];
     
     self.view.backgroundColor = [UIColor grayColor];
+    
+    //
 }
 - (IBAction)show:(id)sender {
     
